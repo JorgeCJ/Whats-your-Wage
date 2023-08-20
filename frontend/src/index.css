@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+ul,h2,h1,input{
+  display:flexbox;
+  justify-content:center;
+  align-items:center;
+}
+
+h2,h1,input{
+  color:white;
+}
+
+ul,h2{
+  font-family: 'Meow Script', cursive;
+}
+
+input:hover{
+  box-shadow: 1px 1px 20px 1px blue;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+}
